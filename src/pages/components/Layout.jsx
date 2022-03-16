@@ -1,11 +1,12 @@
 import React from "react";
-import { Navbar } from "../../components";
+import { Footer, Navbar } from "../../components";
 
 const Layout = ({ children }) => {
   return (
-    <div className="bg-[#f2f2f2]">
+    <div className="flex flex-col min-h-screen">
       <Navbar />
-      {children}
+      <div className="flex-grow 2xl:container mx-auto">{children}</div>
+      <Footer />
     </div>
   );
 };

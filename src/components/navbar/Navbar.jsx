@@ -1,11 +1,17 @@
 import React from "react";
 import { BsSearch } from "react-icons/bs";
 import { AiOutlineShoppingCart } from "react-icons/ai";
+import Link from "next/link";
+
 const Navbar = () => {
   return (
     <div className="main_nav">
       <div className="flex items-center space-x-10">
-        <h4 className="font-medium font-serif lg:text-xl">E-Shop</h4>
+        <Link href="/" passHref>
+          <h4 className="font-medium font-serif lg:text-xl cursor-pointer">
+            E-Shop
+          </h4>
+        </Link>
         <div className="flex items-center border rounded-md border-[#c8d8e4] bg-[#c8d8e4] lg:w-[400px]">
           <input
             type="search"
