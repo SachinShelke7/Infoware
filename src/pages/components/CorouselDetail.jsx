@@ -12,6 +12,7 @@ const Corosel = ({ item }) => {
         showStatus={false}
         showThumbs={false}
         autoPlay={true}
+        showIndicators={false}
       >
         <Image
           src={`/images/${item.image1}`}

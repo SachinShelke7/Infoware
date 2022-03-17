@@ -12,6 +12,7 @@ const Corosel = () => {
         showStatus={false}
         showThumbs={false}
         autoPlay={true}
+        showIndicators={false}
       >
         <Image
           src="/images/banner.jpg"
