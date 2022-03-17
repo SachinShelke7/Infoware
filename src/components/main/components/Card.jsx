@@ -3,6 +3,7 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 
 const Card = ({ item }) => {
+  const [buy, setBuy] = useState("");
   const [selectedProduct, setSelectedProduct] = useState("");
 
   const link = "/images/";
@@ -12,8 +13,17 @@ const Card = ({ item }) => {
       window.localStorage.clear("product");
     } else {
       localStorage.setItem("product", JSON.stringify(selectedProduct));
+      localStorage.setItem("buy", JSON.stringify(selectedProduct));
     }
   }, [selectedProduct]);
+
+  useEffect(() => {
+    if (!buy) {
+      window.localStorage.clear("buy");
+    } else {
+      localStorage.setItem("buy", JSON.stringify(buy));
+    }
+  }, [buy]);
 
   return (
     <div>
@@ -24,7 +34,7 @@ const Card = ({ item }) => {
               src={`${link}${item.image1}`}
               width={"320px"}
               height={"320px"}
-              alt="band"
+              alt={item.title}
               className="hover:scale-105 transform transition-all duration-[500ms] object-cover w-full h-full cursor-pointer"
             />
             <div>
@@ -39,7 +49,11 @@ const Card = ({ item }) => {
                 Details
               </button>
             </Link>
-            <button className="btn">Add to cart</button>
+            <Link href="/buy" passHref>
+              <button className="btn" onClick={() => setBuy(item)}>
+                Buy Now
+              </button>
+            </Link>
           </div>
         </div>
       )}

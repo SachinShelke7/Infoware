@@ -47,5 +47,65 @@
         "category": "fashion",
         "image1": "glass1.jpg",
         "image2": "glass2.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Lakme Forever Matte Liquid Lip Colour, Mauve Ecstasy, 5.6 ml",
+        "price": "250",
+        "brand": "LAKME",
+        "description": "Intense matte colour that looks freshly applied for upto 16 hrs. Deeply pigmented and long lasting colour that just doesnt budge.Lightweight texture that is very comfortable on lips; Available in 20 lightweight matte shades.",
+        "category": "beuty",
+        "image1": "lakmi1.jpg",
+        "image2": "lakmi2.jpg"
+    },
+    {
+        "id": 7,
+        "title": "NIVEA Talcum Powder for Men & Women, Musk, For Gentle Fragrance & Reliable Protection Against Body Odour, 400 g",
+        "price": "196",
+        "brand": "Nivea",
+        "description": "Provides care & protection with a pleasant, refreshing fragrance Provides body odour protection along with gentle NIVEA care.Take some powder in your hand and gently apply over the body It can be used by men and women",
+        "category": "beuty",
+        "image1": "nivea1.jpg",
+        "image2": "nivea2.jpg"
+    },
+    {
+        "id": 8,
+        "title": "OnePlus 138.7 cm (55 inches) U Series 4K LED Smart Android TV 55U1S (Black) (2021 Model)",
+        "price": "46999",
+        "brand": "OnePlus",
+        "description": "Resolution: 4K Ultra HD (3840x2160) | Refresh Rate : 60 Hertz | 178 Degree wide viewing angle Connectivity: 3 HDMI ports (HDMI 2.1 Compatible, HDMI 1 supports eARC) to connect set top box, Blu Ray players, gaming console | 2 USB ports to connect hard drives and other USB devices Sound : 30 Watts Output | Co-tuned with Dynaudio | Dolby Audio",
+        "category": "electronics",
+        "image1": "tv1.jpg",
+        "image2": "tv2.jpg"
+    },
+    {
+        "id": 9,
+        "title": "AmazonBasics 23 L Convection Microwave (Black)",
+        "price": "8199",
+        "brand": "AmazonBasics",
+        "description": "23L Capacity: Suitable for the daily cooking and heating requirements of a family of 3-4 members Warranty: Warranty: 1 year warranty on product and 3 year warranty on the magnetron. For claiming warranty, A) Go to 'Your orders' section, B) select the product, C) Click on Get product support and D) schedule an appointment. No need to call anyone and wait in a queue. Hassle free process. Paperless Experience with complete visibility on every step of your warranty claim",
+        "category": "kitchen",
+        "image1": "amazonmv1.jpg",
+        "image2": "amazonmv2.jpg"
+    },
+    {
+        "id": 10,
+        "title": "AmazonBasics Premium 750 Watt Mixer Grinder with 3 Stainless Steel Jar + 1 Juicer Jar, Black & Grey",
+        "price": "2989",
+        "brand": "AmazonBasics",
+        "description": "AmazonBasics Premium 750 Watt Mixer Grinder with 3 Stainless Steel Jar + 1 Juicer Jar, Black & GreyAmazonBasics Premium 750 Watt Mixer Grinder with 3 Stainless Steel Jar + 1 Juicer Jar, Black & GreyAmazonBasics Premium 750 Watt Mixer Grinder with 3 Stainless Steel Jar + 1 Juicer Jar, Black & Grey",
+        "category": "kitchen",
+        "image1": "mixer1.jpg",
+        "image2": "mixer2.jpg"
+    },
+    {
+        "id": 11,
+        "title": "iBELL Inverter ARC Welding Machine (IGBT) 200A with Hot Start and Anti-Stick Functions - 2 Year Warranty",
+        "price": "6700",
+        "brand": "iBELL",
+        "description": "iBELL Inverter ARC Welding Machine (IGBT) 200A with Hot Start and Anti-Stick Functions - 2 Year WarrantyiBELL Inverter ARC Welding Machine (IGBT) 200A with Hot Start and Anti-Stick Functions - 2 Year WarrantyiBELL Inverter ARC Welding Machine (IGBT) 200A with Hot Start and Anti-Stick Functions - 2 Year Warranty",
+        "category": "industry",
+        "image1": "welding1.jpg",
+        "image2": "welding2.jpg"
     }
 ]

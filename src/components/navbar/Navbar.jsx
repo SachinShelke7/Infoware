@@ -15,8 +15,6 @@ const Navbar = () => {
         <div className="hidden sm:flex items-center border rounded-md border-[#c8d8e4] bg-[#c8d8e4] lg:w-[400px]">
           <input
             type="search"
-            name=""
-            id=""
             className="border-0 focus:ring-0 rounded-l-md flex-grow text-[#2b6777]"
           />
           <button className="w-10 flex justify-center items-center text-[#2b6777]">

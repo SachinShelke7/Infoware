@@ -16,7 +16,6 @@ export default function Home() {
       setItems(updatedItems);
     }
   };
-  console.log(items);
   return (
     <div>
       <Head>

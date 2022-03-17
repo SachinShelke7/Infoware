@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="text-center lg:text-left bg-[#c8d8e4] text-[#2b6777]">
-      <div className="mx-6 py-10 text-center md:text-left border-t mt-5">
+    <footer className="text-center lg:text-left bg-[#c8d8e4] text-[#2b6777] footer">
+      <div className="mx-6 py-10 text-center md:text-left">
         <div className="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <h6 className="uppercase font-semibold mb-4 flex items-center justify-center md:justify-start">
@@ -28,17 +28,16 @@ const Footer = () => {
             <h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
               Useful links
             </h6>
-            <p className="mb-4">abc</p>
-            <p className="mb-4">abc</p>
-            <p className="mb-4">abc</p>
-            <p>abc</p>
+            <p className="mb-4">Why us?</p>
+            <p className="mb-4">About Us</p>
+            <p className="mb-4">Customer Service</p>
           </div>
           <div>
             <h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
               Contact
             </h6>
             <p className="flex items-center justify-center md:justify-start mb-4">
-              address
+              XYZ India
             </p>
             <p className="flex items-center justify-center md:justify-start mb-4">
               contact@xyz.com

@@ -13,7 +13,7 @@
     @apply mt-28 sm:mt-0;
   }
   .btn {
-    @apply text-[#52ab98] border border-[#52ab98] hover:bg-[#52ab98] px-3 py-2 rounded-md hover:text-white transform transition-all duration-[700ms];
+    @apply text-[#52ab98] border border-[#52ab98] hover:bg-[#52ab98] px-3 py-2 rounded-md hover:text-white transform transition-all duration-[700ms] select-none;
   }
   .main_card {
     @apply bg-[#c8d8e4] max-w-[16rem] p-3 rounded-md m-5 shadow-xl;
@@ -26,6 +26,15 @@
   }
   .footer {
     @apply bg-[#2b6777] text-white py-2 text-center select-none 2xl:container mx-auto;
+  }
+  .footer p {
+    @apply cursor-pointer;
+  }
+  .form {
+    @apply max-w-[35rem] bg-[#c8d8e4] text-[#2b6777];
+  }
+  .inp {
+    @apply w-full rounded-md;
   }
 }
 

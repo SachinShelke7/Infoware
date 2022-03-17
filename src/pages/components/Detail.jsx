@@ -47,7 +47,9 @@ const Detail = () => {
                 <Link href="/" passHref>
                   <button className="btn">Back to home</button>
                 </Link>
-                <button className="btn">Add to cart</button>
+                <Link href="/buy" passHref>
+                  <button className="btn">Buy Now</button>
+                </Link>
               </div>
             </div>
           </div>
