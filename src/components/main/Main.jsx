@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./components/Card";
 import Corousel from "./components/Corousel";
 import MenuBar from "./components/MenuBar";
+import Footer from "./components/Footer";
 
 const Main = ({ categories, filterMenu, items }) => {
   return (
@@ -17,6 +18,7 @@ const Main = ({ categories, filterMenu, items }) => {
             })}
         </div>
       </div>
+      <Footer />
     </main>
   );
 };
