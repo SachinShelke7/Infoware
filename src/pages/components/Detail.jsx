@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
+import CorouselDetail from "./CorouselDetail";
 
 const Detail = () => {
   const [item, setItem] = useState("");
@@ -11,6 +12,7 @@ const Detail = () => {
     <div>
       {item && (
         <div>
+          <CorouselDetail item={item} />
           <h2 className="text-xl font-medium py-2">{item.title}</h2>
           <div className="flex space-x-5">
             <div className="w-[30%]">

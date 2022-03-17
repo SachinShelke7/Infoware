@@ -9,7 +9,9 @@
   .main_nav {
     @apply flex w-full justify-between items-center px-5 py-3 fixed top-0 left-0 right-0 z-10 2xl:container mx-auto bg-[#2b6777] text-white;
   }
-
+  .main_content {
+    @apply mt-28 sm:mt-0;
+  }
   .btn {
     @apply text-[#52ab98] border border-[#52ab98] hover:bg-[#52ab98] px-3 py-2 rounded-md hover:text-white transform transition-all duration-[700ms];
   }

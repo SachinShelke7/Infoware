@@ -1,7 +1,7 @@
 [{
         "id": 1,
         "title": "Mi Smart Band 5 – India’s No. 1 Fitness Band",
-        "price": "₹2999",
+        "price": "2999",
         "brand": "MI",
         "description": "1.1” Full touch AMOLED color display Battery runs up to 14 days on a single charge. Battery capacity : 125 mAh Magnetic charging – Hassle free charging Personal Activity Intelligence, Single matrix to track your all fitness related activities.",
         "category": "electronics",
@@ -11,7 +11,7 @@
     {
         "id": 2,
         "title": "boAt Bassheads 100 in Ear Wired Earphones with Mic",
-        "price": "₹349",
+        "price": "349",
         "brand": "Boat",
         "description": "The perfect way to add some style and stand out from the crowd with the boAt BassHeads 100 Hawk inspired earphones.The stylish BassHeads 100 superior coated wired earphones are a definite fashion statement - wear your attitude with its wide variety of collection",
         "category": "electronics",
@@ -21,7 +21,7 @@
     {
         "id": 3,
         "title": "Diverse Men's Slim Formal Shirt",
-        "price": "₹463",
+        "price": "463",
         "brand": "Diverse",
         "description": "Full sleeve, Collar style - Semi cutaway collar; Cuff style - Single cuff , Pattern - Printed Men’s Formal Shirt, French placket; Double yoke, Patch pocket at chest Trim fabric detailing at inner neckband and inner cuff Made in India",
         "category": "fashion",
@@ -31,7 +31,7 @@
     {
         "id": 4,
         "title": "LookMark Men's Poly Cotton Digital Printed Stitched Half Sleeve Shirt",
-        "price": "₹763",
+        "price": "763",
         "brand": "LookMark",
         "description": "Care Instructions: Hand Wash Only ,Fit Type: Regular Fit,Stylish Half sleeve Casual Printed Shirts & Party Wear Casual shirts, 100% Premium Poly Cottton, Pre Washed for an extremely soft finish and Rich look,Modern slim fit ( we have updated our size chart, please refer the size chart for new measurements before ordering) Breathable : Truly comfortable and easy to wear in every season it is insulating in winter and breathable in summer.",
         "category": "fashion",
@@ -41,7 +41,7 @@
     {
         "id": 5,
         "title": "Dervin Unisex Adult Aviator Sunglasses Multicolor Frame, Black Lens (Medium)",
-        "price": "₹499",
+        "price": "499",
         "brand": "Dervin",
         "description": "Medium Size sunglasses for men, women,Durable and Lightweight Frame | Lens Width : 55 MM; Ideal for both Men and Women,Package Contains : 1 Sunglass with Hardcase for safety,Good For Face Type : Diamond, Heart, Long, Oval, Round, Square,Lens Material Type: Composite; Polarization Type: Non-Polarized; Frame Material Type: Metal; Lens Coating Description: Uv Protection Coating",
         "category": "fashion",

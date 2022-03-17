@@ -5,7 +5,7 @@ import Detail from "./components/Detail";
 
 const details = () => {
   return (
-    <div className="pt-16 px-10">
+    <div className="pt-16">
       <Head>
         <title>Product Detail Page</title>
         <meta
