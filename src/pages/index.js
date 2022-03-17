@@ -1,9 +1,9 @@
 import Head from "next/head";
-import { Footer, Main } from "../components";
+import { Main } from "../components";
 
 export default function Home() {
   return (
-    <>
+    <div>
       <Head>
         <title>Infoware_India_Assignment</title>
         <meta
@@ -13,6 +13,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Main />
-    </>
+    </div>
   );
 }

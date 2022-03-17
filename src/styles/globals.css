@@ -14,16 +14,16 @@
     @apply text-[#52ab98] border border-[#52ab98] hover:bg-[#52ab98] px-3 py-2 rounded-md hover:text-white transform transition-all duration-[700ms];
   }
   .main_card {
-    @apply bg-[#c8d8e4] max-w-[15rem] p-3 rounded-md m-5 shadow-xl;
+    @apply bg-[#c8d8e4] max-w-[16rem] p-3 rounded-md m-5 shadow-xl;
   }
   .product_name {
-    @apply text-[#2b6777] text-xl font-medium;
+    @apply text-[#2b6777] font-medium truncate;
   }
   .product_description {
-    @apply text-[#2b6777] pb-2;
+    @apply text-[#2b6777] text-sm pb-2;
   }
   .footer {
-    @apply bg-[#2b6777] text-white py-2 text-center select-none;
+    @apply bg-[#2b6777] text-white py-2 text-center select-none 2xl:container mx-auto;
   }
 }
 
