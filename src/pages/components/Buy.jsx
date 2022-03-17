@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import CorouselDetail from "./CorouselDetail";
 import Link from "next/link";
 import Form from "./Form";
 

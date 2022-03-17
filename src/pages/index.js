@@ -5,7 +5,9 @@ import data from "./data.json";
 
 export default function Home() {
   const [items, setItems] = useState(data);
+
   const categories = ["all", ...new Set(data.map((item) => item.category))];
+
   const filterMenu = (selectedCategory) => {
     if (selectedCategory === "all") {
       setItems(data);
@@ -16,6 +18,7 @@ export default function Home() {
       setItems(updatedItems);
     }
   };
+
   return (
     <div>
       <Head>
