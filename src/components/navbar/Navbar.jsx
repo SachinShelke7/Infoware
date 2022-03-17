@@ -12,7 +12,7 @@ const Navbar = () => {
             E-Shop
           </h4>
         </Link>
-        <div className="flex items-center border rounded-md border-[#c8d8e4] bg-[#c8d8e4] lg:w-[400px]">
+        <div className="hidden sm:flex items-center border rounded-md border-[#c8d8e4] bg-[#c8d8e4] lg:w-[400px]">
           <input
             type="search"
             name=""
@@ -24,11 +24,17 @@ const Navbar = () => {
           </button>
         </div>
       </div>
-      <div className="relative">
-        <AiOutlineShoppingCart className="w-6 h-6" />
-        <p className="text-[8px] absolute -top-4 -right-2 bg-white rounded-full text-black p-1">
-          01
-        </p>
+      <div className="flex space-x-10 items-center">
+        <div>
+          <p className="text-xs">hello,</p>
+          <p className="text-sm font-bold">Username</p>
+        </div>
+        <div className="relative">
+          <AiOutlineShoppingCart className="w-6 h-6" />
+          <p className="text-[8px] absolute -top-4 -right-2 bg-white rounded-full text-black p-1">
+            01
+          </p>
+        </div>
       </div>
     </div>
   );
