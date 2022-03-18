@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Detail from "./components/Detail";
+import { Footer, Navbar } from "../components";
 
 const details = () => {
   return (
@@ -9,7 +10,9 @@ const details = () => {
         <title>Product Detail Page</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Navbar />
       <Detail />
+      <Footer />
     </div>
   );
 };

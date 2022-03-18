@@ -4,7 +4,14 @@ import Corousel from "./components/Corousel";
 import MenuBar from "./components/MenuBar";
 import Footer from "./components/Footer";
 
-const Main = ({ categories, filterMenu, items }) => {
+const Main = ({
+  categories,
+  filterMenu,
+  items,
+  cart,
+  setCart,
+  setGetNewItem,
+}) => {
   return (
     <main className="main_content">
       <MenuBar categories={categories} filterMenu={filterMenu} />
@@ -14,7 +21,16 @@ const Main = ({ categories, filterMenu, items }) => {
         <div className="flex w-full justify-center items-center flex-wrap gap-10">
           {items &&
             items.map((item, index) => {
-              return <Card item={item} key={index} />;
+              return (
+                <Card
+                  item={item}
+                  key={index}
+                  items={items}
+                  cart={cart}
+                  setCart={setCart}
+                  setGetNewItem={setGetNewItem}
+                />
+              );
             })}
         </div>
       </div>

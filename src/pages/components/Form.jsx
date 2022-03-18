@@ -6,7 +6,7 @@ const Form = () => {
   };
   return (
     <div className="form">
-      <form onSubmit={onSubmit} className="border border-[#2b6777] p-5">
+      <form onSubmit={onSubmit}>
         <div>
           <label htmlFor="name">Name : </label>
           <input type="text" placeholder="Name" required className="inp" />
@@ -18,6 +18,15 @@ const Form = () => {
         <div>
           <label htmlFor="email">E-Mail : </label>
           <input type="email" placeholder="E-mail" required className="inp" />
+        </div>
+        <div>
+          <label htmlFor="mobile">Number : </label>
+          <input
+            type="number"
+            placeholder="+91 1234567890"
+            required
+            className="inp"
+          />
         </div>
         <div>
           <label htmlFor="Address">Address : </label>

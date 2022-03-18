@@ -31,7 +31,7 @@
     @apply cursor-pointer;
   }
   .form {
-    @apply max-w-[35rem] bg-[#c8d8e4] text-[#2b6777];
+    @apply max-w-[35rem] bg-[#c8d8e4] text-[#2b6777] lg:fixed top-28 right-28 border border-[#2b6777] p-5 rounded-md;
   }
   .inp {
     @apply w-full rounded-md;

@@ -1,10 +1,13 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Head from "next/head";
-import { Main } from "../components";
+import { Footer, Main, Navbar } from "../components";
 import data from "./data.json";
 
 export default function Home() {
   const [items, setItems] = useState(data);
+  const [cart, setCart] = useState([]);
+  const [getNewItem, setGetNewItem] = useState();
+  const [cartLenght, setCartLenght] = useState([]);
 
   const categories = ["all", ...new Set(data.map((item) => item.category))];
 
@@ -19,6 +22,17 @@ export default function Home() {
     }
   };
 
+  useEffect(() => {
+    if (getNewItem) {
+      const initialCart = JSON.parse(localStorage.getItem("cart") || "[]");
+      const cartArray = [...initialCart, getNewItem];
+      if (cart) {
+        localStorage.setItem("cart", JSON.stringify(cartArray));
+        setCartLenght([...initialCart, getNewItem]);
+      }
+    }
+  }, [getNewItem]);
+
   return (
     <div>
       <Head>
@@ -29,7 +43,16 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Main categories={categories} filterMenu={filterMenu} items={items} />
+      <Navbar cartLenght={cartLenght} />
+      <Main
+        categories={categories}
+        filterMenu={filterMenu}
+        items={items}
+        cart={cart}
+        setCart={setCart}
+        setGetNewItem={setGetNewItem}
+      />
+      <Footer />
     </div>
   );
 }

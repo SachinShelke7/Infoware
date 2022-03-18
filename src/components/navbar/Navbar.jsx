@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BsSearch } from "react-icons/bs";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import Link from "next/link";
@@ -27,12 +27,11 @@ const Navbar = () => {
           <p className="text-xs">hello,</p>
           <p className="text-sm font-bold">Username</p>
         </div>
-        <div className="relative">
-          <AiOutlineShoppingCart className="w-6 h-6" />
-          <p className="text-[8px] absolute -top-4 -right-2 bg-white rounded-full text-black p-1">
-            01
-          </p>
-        </div>
+        <Link href="/cart" passHref>
+          <div className="relative cursor-pointer">
+            <AiOutlineShoppingCart className="w-6 h-6" />
+          </div>
+        </Link>
       </div>
     </div>
   );
