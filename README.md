@@ -10,6 +10,9 @@ I have done with the assignment as follows.
             Category Filter,
             Data fetch from JSON,
             Detail Page And Buy Page dynamic.
+## Update :- 18/03/2022
+            Cart Functionality,
+            All Pages Dyanamic,
 
 ## Deployed on Vercel
 Link :- https://infoware-beta.vercel.app/
