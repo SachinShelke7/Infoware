@@ -1,9 +1,15 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { BsSearch } from "react-icons/bs";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import Link from "next/link";
 
 const Navbar = () => {
+  const [cartItem, setCartItem] = useState([]);
+  useEffect(() => {
+    const getCart = JSON.parse(localStorage.getItem("cart"));
+    setCartItem(getCart);
+  }, [localStorage.getItem("cart")]);
+
   return (
     <div className="main_nav">
       <div className="flex items-center space-x-10">
@@ -30,6 +36,9 @@ const Navbar = () => {
         <Link href="/cart" passHref>
           <div className="relative cursor-pointer">
             <AiOutlineShoppingCart className="w-6 h-6" />
+            <p className="absolute -top-4 -right-1">
+              {cartItem ? <span>{cartItem.length}</span> : <span>0</span>}
+            </p>
           </div>
         </Link>
       </div>

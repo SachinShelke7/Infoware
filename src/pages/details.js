@@ -1,7 +1,12 @@
 import React from "react";
 import Head from "next/head";
 import Detail from "./components/Detail";
-import { Footer, Navbar } from "../components";
+import { Footer } from "../components";
+import dynamic from "next/dynamic";
+
+const Navbar = dynamic(() => import("../components/navbar/Navbar"), {
+  ssr: false,
+});
 
 const details = () => {
   return (

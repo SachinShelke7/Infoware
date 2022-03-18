@@ -26,7 +26,7 @@ const Detail = () => {
   };
 
   return (
-    <div className="lg:py-16 w-full flex flex-col lg:flex-row lg:space-x-20 px-5 space-y-10 lg:space-y-0 mb-5">
+    <div className="lg:py-16 w-full flex flex-col lg:flex-row lg:space-x-20 px-5 space-y-10 lg:space-y-0 mb-5 pt-20">
       <div>
         <div className="pt-5 text-[#2b6777]">
           {items ? (

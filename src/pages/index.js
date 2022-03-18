@@ -1,7 +1,12 @@
 import { useState, useEffect } from "react";
 import Head from "next/head";
-import { Footer, Main, Navbar } from "../components";
+import { Footer, Main } from "../components";
 import data from "./data.json";
+import dynamic from "next/dynamic";
+
+const Navbar = dynamic(() => import("../components/navbar/Navbar"), {
+  ssr: false,
+});
 
 export default function Home() {
   const [items, setItems] = useState(data);
